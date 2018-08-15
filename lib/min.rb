@@ -9,6 +9,8 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.sort.min
+  groceries.sort
   binding.pry
 end
+
+groceries.sort
