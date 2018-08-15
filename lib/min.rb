@@ -9,8 +9,9 @@ groceries = {
 }
 
 def get_the_min(groceries)
-  groceries.sort
+  groceries.min.to_a
+  grociers[0]
   binding.pry
 end
 
-puts groceries.min
+# puts groceries.min
