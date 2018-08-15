@@ -13,4 +13,4 @@ def get_the_values(groceries)
   binding.pry
 end
 
-groceries.values
+puts groceries.values
