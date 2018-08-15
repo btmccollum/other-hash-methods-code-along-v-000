@@ -13,4 +13,4 @@ def get_the_min(groceries)
   binding.pry
 end
 
-puts groceries.sort
+puts groceries.min
